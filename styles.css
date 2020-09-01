@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* font-family: 'gobold_bolditalic';*/
+}
+
+.header {
+    background-color: #141e25;
+}
+
+.brawser {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.principal-title {
+    color: white;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.principal-title h1 {
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.principal-title .title {
+    color: #2E9AFE;
+}
+
+.principal-title strong {
+    color: #DF0101;
+}
+
+.nav-principal {
+    height: 70px;
+    color: white;
+    background-color: #1c2831;
+    display: flex;
+    align-items: center;
+}
+
+.nav-principal ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-principal a {
+    padding: 0 20px;
+    margin: 0 30px;
+}
+
+.items-menu {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.personal-information {
+    border: 1px solid red;
+}
+
+.personalI-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.social {
+    border: 1px solid blue;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-portfolio {
+    border-bottom: 2px solid gray;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+
+/*Modificarlas apenas ponga el contenido de estos articulos*/
+
+.objective {
+    flex-shrink: 0;
+    height: 250px;
+    width: 250px;
+    border: 1px solid blue;
+    margin: 10px 100px;
+}
+
+.Cursos {
+    flex-shrink: 0;
+    height: 250px;
+    width: 250px;
+    border: 1px solid blue;
+    margin: 10px 100px;
+}
+
+.Web_development {
+    flex-shrink: 0;
+    height: 250px;
+    width: 250px;
+    border: 1px solid blue;
+    margin: 10px 100px;
+}
+
+.js {
+    flex-shrink: 0;
+    height: 250px;
+    width: 250px;
+    border: 1px solid blue;
+    margin: 10px 100px;
+}
+
+.schoolEnglish {
+    flex-shrink: 0;
+    height: 250px;
+    width: 750px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+
+/*Modificarlas apenas ponga el contenido de estos articulos*/
+
+.aRedirect {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #00439d;
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    border: 1px solid black;
+}
+
+.contact-input {
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.contact-input:focus {
+    border-bottom-color: blue;
+}
+
+
+/*
+*/

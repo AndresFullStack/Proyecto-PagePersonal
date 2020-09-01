@@ -145,6 +145,37 @@ body {
     margin: 10px;
 }
 
+.contact {
+    height: 200px;
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-input {
+    margin: 10px 0;
+    flex-shrink: 0;
+}
+
+.contact-title {
+    margin: 10px 0;
+    flex-shrink: 0;
+}
+
+.contact-button {
+    margin: 10px 0;
+    flex-shrink: 0;
+}
+
 
 /*Modificarlas apenas ponga el contenido de estos articulos*/
 

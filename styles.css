@@ -93,10 +93,11 @@ body {
 .socialV {
     background-color: #141e25;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70px;
+    width: 80px;
 }
 
 .social-link {
@@ -132,6 +133,7 @@ body {
 }
 
 .social-linkV.facebook {
+    margin-top: 100px;
     background-image: url('../Svg-Images/facebook.svg');
 }
 

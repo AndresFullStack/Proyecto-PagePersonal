@@ -87,9 +87,77 @@ body {
     font-weight: bold;
 }
 
-.social {
-    border: 1px solid blue;
+
+/*SOCIAL DISPLAY*/
+
+.socialV {
+    background-color: #141e25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
 }
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-linkV {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 10px 0;
+}
+
+.social-link.facebook {
+    background-image: url('../Svg-Images/facebook.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../Svg-Images/instagram.svg');
+}
+
+.social-link.github {
+    background-image: url('../Svg-Images/github.svg');
+}
+
+.social-link.youtube {
+    background-image: url('../Svg-Images/twitter.svg');
+}
+
+.social-linkV.facebook {
+    background-image: url('../Svg-Images/facebook.svg');
+}
+
+.social-linkV.instagram {
+    background-image: url('../Svg-Images/instagram.svg');
+}
+
+.social-linkV.github {
+    background-image: url('../Svg-Images/github.svg');
+}
+
+.social-linkV.youtube {
+    background-image: url('../Svg-Images/twitter.svg');
+}
+
+.socialH {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #141e25;
+    height: 80px;
+}
+
+
+/*SOCIAL DISPLAY*/
 
 .portfolio {
     display: flex;
@@ -147,6 +215,16 @@ body {
     width: 750px;
     border: 1px solid blue;
     margin: 10px;
+}
+
+.title-contact {
+    border-bottom: 2px solid gray;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    /*con esto fue que movi todo al centro*/
+    margin: 20px auto;
+    text-transform: uppercase;
 }
 
 .contact {

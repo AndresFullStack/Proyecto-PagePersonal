@@ -9,6 +9,10 @@ body {
     /* font-family: 'gobold_bolditalic';*/
 }
 
+html {
+    font-size: 62.5%;
+}
+
 .header {
     background-color: #141e25;
 }
@@ -20,7 +24,7 @@ main {
 }
 
 .brawser {
-    width: 1000px;
+    width: 100rem;
     height: inherit;
     margin: 0 auto;
     display: inherit;
@@ -32,18 +36,18 @@ main {
 
 .principal-title {
     color: white;
-    height: 100px;
+    height: 10rem;
     box-sizing: border-box;
 }
 
 .principal-title h1 {
     font-weight: bold;
-    letter-spacing: -2px;
+    letter-spacing: -0.2rem;
     margin: 0;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 
@@ -56,7 +60,7 @@ main {
 }
 
 .nav-principal {
-    height: 70px;
+    height: 7rem;
     color: white;
     background-color: #1c2831;
     display: flex;
@@ -67,17 +71,17 @@ main {
     display: flex;
     justify-content: left;
     list-style: none;
-    padding: 0px;
+    padding: 0;
 }
 
 .nav-principal a {
-    padding: 0 20px;
-    margin: 0 30px;
+    padding: 0 2rem;
+    margin: 0 3rem;
 }
 
 .items-menu {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 3rem;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -91,18 +95,18 @@ main {
     flex-shrink: 0;
     background-color: #232E3A;
     width: 100%;
-    height: 300px;
+    height: 30rem;
     box-sizing: border-box;
 }
 
 .personalI-title {
     text-align: center;
-    width: 400px;
+    width: 40rem;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
-    margin: 10px auto;
-    border-bottom: 1px solid white;
+    margin: 1rem auto;
+    border-bottom: 0.1rem solid white;
 }
 
 
@@ -116,26 +120,26 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 80px;
+    width: 8rem;
     position: absolute;
     /*cambiarlos*/
-    height: 102em;
+    height: 220%;
 }
 
 .social-link {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-    margin: 0 10px;
+    width: 5rem;
+    height: 5rem;
+    background-size: 5rem 5rem;
+    margin: 0 1rem;
 }
 
 .social-linkV {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-    margin: 10px 0;
+    width: 5rem;
+    height: 5rem;
+    background-size: 5rem 5rem;
+    margin: 1rem 0;
 }
 
 .social-link.facebook {
@@ -177,14 +181,20 @@ main {
     justify-content: flex-end;
     align-items: center;
     background-color: #141e25;
-    height: 80px;
+    height: 8rem;
 }
 
 
 /*Portafolio*/
 
+
+/*PONERLE LIMITES: cuando le ponga todo lo relacionado a RESPONSIVE*/
+
 .portfolio {
     width: 100%;
+    /*
+    AUN NO
+    min-width: 100rem;*/
     flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
@@ -194,10 +204,10 @@ main {
 .title-portfolio {
     flex-shrink: 0;
     border-bottom: 2px solid gray;
-    width: 200px;
+    width: 20rem;
     text-align: center;
-    font-size: 30px;
-    margin: 20px auto;
+    font-size: 3rem;
+    margin: 2rem auto;
     text-transform: uppercase;
 }
 
@@ -206,58 +216,59 @@ main {
 
 .objective {
     flex-shrink: 0;
-    height: 250px;
-    width: 250px;
-    border: 1px solid blue;
-    margin: 10px 100px;
+    height: 25rem;
+    width: 25rem;
+    border: 0.1rem solid blue;
+    margin: 1rem 10rem;
 }
 
 .Cursos {
     flex-shrink: 0;
-    height: 250px;
-    width: 250px;
-    border: 1px solid blue;
-    margin: 10px 100px;
+    height: 25rem;
+    width: 25rem;
+    border: 0.1rem solid blue;
+    margin: 1rem 10rem;
 }
 
 .Web_development {
     flex-shrink: 0;
-    height: 250px;
-    width: 250px;
-    border: 1px solid blue;
-    margin: 10px 100px;
+    height: 25rem;
+    width: 25rem;
+    border: 0.1rem solid blue;
+    margin: 1rem 10rem;
 }
 
 .js {
     flex-shrink: 0;
-    height: 250px;
-    width: 250px;
-    border: 1px solid blue;
-    margin: 10px 100px;
+    height: 25rem;
+    width: 25rem;
+    border: 0.1rem solid blue;
+    margin: 1rem 10rem;
 }
 
 .schoolEnglish {
     flex-shrink: 0;
-    height: 250px;
-    width: 750px;
-    border: 1px solid blue;
-    margin: 10px;
+    height: 25rem;
+    width: 75rem;
+    border: 0.1rem solid blue;
+    margin: 1rem;
 }
 
 .title-contact {
-    border-bottom: 2px solid gray;
-    width: 200px;
+    border-bottom: 0.2rem solid gray;
+    width: 20rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     /*con esto fue que movi todo al centro*/
-    margin: 20px auto;
+    margin: 2rem auto;
     text-transform: uppercase;
 }
 
 .contact {
     width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
+    /*Ponerle min and max width y el height*/
+    height: 20rem;
+    margin-bottom: 2rem;
     flex-shrink: 0;
     display: flex;
     justify-content: inherit;
@@ -266,25 +277,25 @@ main {
 }
 
 .contact-form {
-    height: 200px;
-    width: 200px;
+    height: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .contact-input {
-    margin: 10px 0;
+    margin: 1rem 0;
     flex-shrink: 0;
 }
 
 .contact-title {
-    margin: 10px 0;
+    margin: 1rem 0;
     flex-shrink: 0;
 }
 
 .contact-button {
-    margin: 10px 0;
+    margin: 1rem 0;
     flex-shrink: 0;
 }
 
@@ -293,12 +304,12 @@ main {
 
 .aRedirect {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 5px 20px;
-    border: 1px solid black;
-    border-radius: 15px;
+    padding: 0.5rem 2rem;
+    border: 0.1rem solid black;
+    border-radius: 1.5rem;
     background: #00439d;
     text-decoration: none;
     color: white;
@@ -326,15 +337,15 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 8rem;
 }
 
 .footer p {
-    margin: 0px;
+    margin: 0;
 }
 
 .division {
     background-color: #141e25;
-    height: 100px;
+    height: 10rem;
     width: 100%;
 }

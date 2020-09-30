@@ -341,7 +341,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
+    height: 6rem;
 }
 
 .footer p {

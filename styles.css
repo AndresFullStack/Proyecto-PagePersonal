@@ -226,6 +226,10 @@ main {
     margin: 1rem 10rem;
 }
 
+.objective-block {
+    overflow: auto;
+}
+
 .Cursos {
     flex-shrink: 0;
     height: 25rem;

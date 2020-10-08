@@ -22,7 +22,6 @@ main {
 .brawser {
     width: 100rem;
     height: inherit;
-    margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
@@ -113,17 +112,7 @@ main {
 /*SOCIAL DISPLAY*/
 
 .socialV {
-    flex-shrink: 0;
-    background-color: #141e25;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 8rem;
-    position: absolute;
-    /*cambiarlos*/
-    height: 220%;
+    display: none;
 }
 
 .social-link {
@@ -220,6 +209,7 @@ main {
     width: 25rem;
     border: 0.1rem solid blue;
     margin: 1rem 10rem;
+    font-size: 1.6rem;
 }
 
 .Cursos {

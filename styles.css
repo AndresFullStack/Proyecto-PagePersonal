@@ -23,6 +23,8 @@ main {
     flex-wrap: wrap;
 }
 
+
+/*
 .brawser {
     width: 100rem;
     height: inherit;
@@ -32,7 +34,7 @@ main {
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-}
+}*/
 
 .principal-title {
     color: white;
@@ -220,14 +222,31 @@ main {
 
 .objective {
     flex-shrink: 0;
-    height: 25rem;
+    height: auto;
     width: 25rem;
     border: 0.1rem solid blue;
     margin: 1rem 10rem;
 }
 
 .objective-block {
-    overflow: auto;
+    margin-top: -0.1rem;
+    width: 25rem;
+    position: relative;
+    background-color: white;
+}
+
+figure {
+    margin: 0;
+    position: relative;
+}
+
+.objective-imageBlock {
+    width: 48rem;
+    height: 20rem;
+}
+
+.objective-image {
+    width: 48rem;
 }
 
 .Cursos {

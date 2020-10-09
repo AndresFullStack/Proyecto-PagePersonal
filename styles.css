@@ -23,8 +23,6 @@ main {
     flex-wrap: wrap;
 }
 
-
-/*
 .brawser {
     width: 100rem;
     height: inherit;
@@ -34,7 +32,7 @@ main {
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-}*/
+}
 
 .principal-title {
     color: white;
@@ -161,7 +159,7 @@ main {
 }
 
 .social-link.youtube {
-    background-image: url('../Svg-Images/twitter.svg');
+    background-image: url('../Svg-Images/youtube.svg');
 }
 
 .social-linkV.facebook {
@@ -178,7 +176,7 @@ main {
 }
 
 .social-linkV.youtube {
-    background-image: url('../Svg-Images/twitter.svg');
+    background-image: url('../Svg-Images/youtube.svg');
 }
 
 .socialH {
@@ -223,30 +221,34 @@ main {
 .objective {
     flex-shrink: 0;
     height: auto;
-    width: 25rem;
-    border: 0.1rem solid blue;
+    width: 40rem;
     margin: 1rem 10rem;
 }
 
 .objective-block {
     margin-top: -0.1rem;
-    width: 25rem;
+    margin: auto;
+    width: 30rem;
     position: relative;
     background-color: white;
 }
 
+.objective-description {
+    padding: 1rem;
+}
+
 figure {
     margin: 0;
-    position: relative;
 }
 
 .objective-imageBlock {
-    width: 48rem;
+    width: 40rem;
     height: 20rem;
 }
 
 .objective-image {
-    width: 48rem;
+    width: 40rem;
+    border-radius: 0.5rem;
 }
 
 .Cursos {

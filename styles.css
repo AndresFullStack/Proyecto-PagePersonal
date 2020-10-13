@@ -139,7 +139,7 @@ main {
     width: 8rem;
     position: absolute;
     /*cambiarlos*/
-    height: 220%;
+    height: 300%;
 }
 
 .social-link {
@@ -242,7 +242,6 @@ figure {
 
 .objective {
     flex-shrink: 0;
-    height: auto;
     width: 40rem;
     height: 54rem;
     background-color: #DBEBF7;
@@ -272,6 +271,7 @@ figure {
 
 .objective-image {
     width: 40rem;
+    height: 26.5rem;
     border-radius: 0.5rem;
 }
 
@@ -300,6 +300,7 @@ figure {
     padding: 1rem;
     font-size: 1.6rem;
     height: 22.6rem;
+    /*Para que me muestre el scroll*/
     overflow: auto;
 }
 
@@ -320,18 +321,64 @@ figure {
 
 .Web_development {
     flex-shrink: 0;
-    height: 25rem;
-    width: 25rem;
-    border: 0.1rem solid blue;
-    margin: 1rem 10rem;
+    margin-top: 2.5rem;
+    margin-left: 0.1rem;
+    width: 40rem;
+    height: 54rem;
+    background-color: #DBEBF7;
+    border-radius: 1rem;
+}
+
+.Web_development-block {
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    width: 35rem;
+    position: relative;
+    background-color: white;
+}
+
+.Web_development-description {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.Web_development-image {
+    width: 40rem;
+    border-radius: 0.5rem;
 }
 
 .js {
     flex-shrink: 0;
-    height: 25rem;
-    width: 25rem;
-    border: 0.1rem solid blue;
-    margin: 1rem 10rem;
+    margin-top: 2.5rem;
+    width: 40rem;
+    height: 54rem;
+    border-radius: 1rem;
+    background-color: #DBEBF7;
+}
+
+.js-block {
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    width: 35rem;
+    position: relative;
+    background-color: white;
+}
+
+.js-description {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.js-image {
+    width: 40rem;
+    height: 26.5rem;
+    border-radius: 0.5rem;
 }
 
 .schoolEnglish {
@@ -339,7 +386,7 @@ figure {
     height: 25rem;
     width: 75rem;
     border: 0.1rem solid blue;
-    margin: 1rem;
+    margin: 2.5rem 0;
 }
 
 .title-contact {
@@ -437,4 +484,11 @@ figure {
     background-color: #141e25;
     height: 10rem;
     width: 100%;
+}
+
+.url-platzi {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: red;
 }

@@ -159,36 +159,36 @@ main {
 }
 
 .social-link.facebook {
-    background-image: url('../Svg-Images/facebook.svg');
+    background-image: url('./Svg-Images/facebook.svg');
 }
 
 .social-link.instagram {
-    background-image: url('../Svg-Images/instagram.svg');
+    background-image: url('./Svg-Images/instagram.svg');
 }
 
 .social-link.github {
-    background-image: url('../Svg-Images/github.svg');
+    background-image: url('./Svg-Images/github.svg');
 }
 
 .social-link.youtube {
-    background-image: url('../Svg-Images/youtube.svg');
+    background-image: url('./Svg-Images/youtube.svg');
 }
 
 .social-linkV.facebook {
     margin-top: 100px;
-    background-image: url('../Svg-Images/facebook.svg');
+    background-image: url('./Svg-Images/facebook.svg');
 }
 
 .social-linkV.instagram {
-    background-image: url('../Svg-Images/instagram.svg');
+    background-image: url('./Svg-Images/instagram.svg');
 }
 
 .social-linkV.github {
-    background-image: url('../Svg-Images/github.svg');
+    background-image: url('./Svg-Images/github.svg');
 }
 
 .social-linkV.youtube {
-    background-image: url('../Svg-Images/youtube.svg');
+    background-image: url('./Svg-Images/youtube.svg');
 }
 
 .socialH {
@@ -345,6 +345,10 @@ figure {
     font-size: 1.6rem;
 }
 
+.Web_development-imageBlock {
+    height: 26.5rem;
+}
+
 .Web_development-image {
     width: 40rem;
     border-radius: 0.5rem;
@@ -373,6 +377,10 @@ figure {
     margin: 0;
     padding: 1rem;
     font-size: 1.6rem;
+}
+
+.js-imageBlock {
+    height: 26.5rem;
 }
 
 .js-image {

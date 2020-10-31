@@ -30,7 +30,6 @@ main {
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
-    height: inherit;
     flex-wrap: inherit;
 }
 
@@ -128,17 +127,18 @@ main {
 /*SOCIAL DISPLAY*/
 
 .socialV {
+    position: absolute;
     flex-shrink: 0;
-    background-color: #141e25;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 8rem;
-    position: absolute;
     /*cambiarlos*/
     height: 300%;
+    /*el width y height*/
+    background-color: #141e25;
 }
 
 .social-link {

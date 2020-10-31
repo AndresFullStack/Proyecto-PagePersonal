@@ -42,7 +42,6 @@ main {
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
-    height: inherit;
     flex-wrap: inherit;
 }
 
